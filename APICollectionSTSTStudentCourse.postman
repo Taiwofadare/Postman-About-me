@@ -16,7 +16,7 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code is 200\", function () {\r",
+									"pm.test(\"Status code should be 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"pm.test(\"Status code name should have an OK string\", function () {\r",
@@ -44,17 +44,22 @@
 							}
 						},
 						"url": {
-							"raw": "https://demo.fusio-project.org/index.php",
+							"raw": "https://api.postman.com/collections/3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0?access_key=PMAT-01H40M7GCGGGYX7EFK4BFTRHZX",
 							"protocol": "https",
 							"host": [
-								"demo",
-								"fusio-project",
-								"org"
+								"api",
+								"postman",
+								"com"
 							],
 							"path": [
-								"index.php"
+								"collections",
+								"3865219-8ed1a723-7194-4433-9aef-352e9b86d1e0"
 							],
 							"query": [
+								{
+									"key": "access_key",
+									"value": "PMAT-01H40M7GCGGGYX7EFK4BFTRHZX"
+								},
 								{
 									"key": "",
 									"value": "",
