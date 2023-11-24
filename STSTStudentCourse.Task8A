@@ -198,19 +198,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://demo.fusio-project.org/?=1000000",
-							"protocol": "https",
+							"raw": "{{baseUrl}}?=1000000",
 							"host": [
-								"demo",
-								"fusio-project",
-								"org"
-							],
-							"path": [
-								""
+								"{{baseUrl}}"
 							],
 							"query": [
 								{
-									"key": null,
+									"key": "",
 									"value": "1000000"
 								}
 							]
